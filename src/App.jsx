@@ -1,4 +1,12 @@
+import './App.css';
+
 function App() {
-  return <h1>Welcome to Paradise Nursery</h1>;
+  return (
+    <div className="App">
+      <h1>Paradise Nursery</h1>
+      <button>Get Started</button>
+    </div>
+  );
 }
+
 export default App;
